@@ -2,10 +2,10 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6185597348:AAHXerBO3KfoHhs22nOfIrhFnzvaAt_dXAE")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = int(os.environ.get("API_ID", 23830477))
+    API_HASH = os.environ.get("API_HASH", 19f8365d98fb11c9cd6c1eaa8b1fa4b8)
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -24,9 +24,9 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-    SESSION_NAME = "UPLOADER-X-BOT"
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1867884587"))
+    SESSION_NAME = "Drm Downloader bot"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Khrish:98982khrishisveryop07@cluster1.hh7bbcz.mongodb.net/?retryWrites=true&w=majority")
     MAX_RESULTS = "50"
     PREMIUM_USER = os.environ.get("PREMIUM_USER")
